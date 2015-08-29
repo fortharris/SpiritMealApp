@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etto"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:clickable="false"
+         />
+
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subject"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etsubject"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Subject" />
+
+    <TextView
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Message"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etmessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:inputType="textMultiLine"
+        android:paddingBottom="50dp"
+        android:layout_marginBottom="15dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+       
+        android:text="Send" />
+
+</LinearLayout><!-- From: file:/C:/Users/Harry/StudioProjects/SpiritMealBible/app/src/main/res/layout/feedback.xml -->

@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.sabonzy.spiritmealbible.MainActivity" >
+
+    <item
+        android:id="@+id/zoomIn"
+        android:orderInCategory="100"
+        android:title="Zoom In"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/zoomOut"
+        android:orderInCategory="100"
+        android:title="Zoom Out"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always|collapseActionView">
+    </item>
+    <item
+        android:id="@+id/contrast"
+        android:showAsAction="never"
+        android:title="Contrast">
+    </item>
+    <item android:id="@+id/feedback"
+        android:title="Feedback"
+        android:showAsAction="never" ></item>
+
+</menu><!-- From: file:/C:/Users/Harry/StudioProjects/SpiritMealBible/app/src/main/res/menu/main.xml -->
